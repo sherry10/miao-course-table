@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/basicText">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Menu_course_add"
+            android:icon="@drawable/ic_menu_course_add"
+            android:title="@string/menu_course_add"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/Menu_course_search"
+            android:icon="@drawable/ic_menu_course_search"
+            android:title="@string/menu_course_search"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/Menu_empty_classroom"
+            android:icon="@drawable/ic_menu_empty_classroom"
+            android:title="@string/menu_empty_classroom"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/Menu_main_setting"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="@string/menu_main_setting"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+    </group>
+</menu>

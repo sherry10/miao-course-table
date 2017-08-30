@@ -1,0 +1,97 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="AppTheme"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TitleBarText" parent="AppBaseTheme">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="SubHeadTextGray" parent="AppBaseTheme">
+        <item name="android:textColor">#ffb5b6b6</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PageHeaderShadow" parent="AppBaseTheme">
+        <item name="android:background">@drawable/bg_header_shadow</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+    <style name="BtnMainFuncText" parent="AppBaseTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#616161</item>
+    </style>
+
+    <style name="CourseListTextTitle" parent="AppBaseTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="CourseListTextGray" parent="AppBaseTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="GradeHeadKeyText" parent="AppBaseTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    
+    <style name="GradeHeadValText" parent="AppBaseTheme">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+    <style name="custom_title_background">
+        <item name="android:background">#2c78d7</item>
+    </style>
+
+    <style name="custom_title" parent="android:Theme">
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/custom_title_background</item>
+    </style>
+
+    <style name="basicText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="courseTableText">
+        <item name="android:textColor">#4b3b85</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="statusListItemText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="errorReportItemText">
+        <item name="android:textColor">#b8a5a5</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+
+</resources>
